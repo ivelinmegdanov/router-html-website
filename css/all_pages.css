@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Навигационна лента */
+.navbar {
+  padding: 20px 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.logo-and-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar img {
+  width: 110px;
+  margin-right: 20px;
+}
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.navbar-links a:hover {
+  color: #ff9415;
+}
+.contact-us {
+  background: linear-gradient(272deg, #ff9415, #f15b2a);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 15px 25px;
+}
+.contact-us:hover {
+  background: linear-gradient(272deg, #f15b2a, #ff9415);
+}
+
+/* Footer */
+footer {
+  background-color: #0d003b;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-contacts {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.footer-logo img {
+  margin-bottom: 15px;
+}
+.footer-links h3 {
+  color: #ff9415;
+  margin-bottom: 20px;
+}
+.footer-links ul {
+  list-style: none;
+}
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+  transition: color 0.2s;
+}
+.footer-links ul li a:hover {
+  color: #ff9415;
+}
+.newsletter input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+}
+.newsletter button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f7941e;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.2s;
+}
+.newsletter button:hover {
+  background-color: #f15b2a;
+}

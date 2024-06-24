@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RouteR</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="../css/all_pages.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo-and-links">
+        <img href="index.html" class="logo" src="../img/logo.png" alt="Logo" />
+        <div class="navbar-links">
+          <a href="index.html">Начало</a>
+          <a href="products.html">Продукти</a>
+          <a href="contacts.html">Контакти</a>
+          <a href="aboutme.html">За Mен</a>
+          <a href="login.html" style="color: #f15523">Вход</a>
+        </div>
+      </div>
+      <a href="contacts.html" class="contact-us">Свържете се с нас</a>
+    </nav>
+
+    <div class="login-container" id="login-form">
+      <div class="login-form">
+        <h1>Вход</h1>
+        <form action="#" method="POST">
+          <label for="username">Потребителско име</label>
+          <input type="text" name="username" />
+          <label for="password">Парола</label>
+          <input type="password" name="password" />
+          <button type="submit">Вход</button>
+        </form>
+        <a href="#" onclick="showRegister()">Нямаш регистрация?</a>
+        <a href="#">Забравена парола?</a>
+      </div>
+    </div>
+
+    <div class="login-container" id="register-form" style="display: none">
+      <div class="login-form">
+        <h1>Регистрация</h1>
+        <form action="#" method="POST">
+          <label for="username">Потребителско име</label>
+          <input type="text" name="username" />
+          <label for="password">Парола</label>
+          <input type="password" name="password" />
+          <label for="password">Повтори парола</label>
+          <input type="password" name="password" />
+          <button type="submit">Регистрация</button>
+        </form>
+        <a href="#" onclick="showLogin()">Имаш регистрация?</a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-main">
+          <div class="footer-contacts">
+            <div class="footer-contact">
+              <h3>Свържете се с нас</h3>
+              <p>+359 123 123 123</p>
+            </div>
+            <div class="footer-contact">
+              <h3>Имейл</h3>
+              <p>iv4o.megdanov@gmail.com</p>
+            </div>
+            <div class="footer-contact">
+              <h3>Имена</h3>
+              <p>Ивелин Илиев Мегданов</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="quick-links">
+            <h3>Линкове</h3>
+            <ul>
+              <li><a href="index.html">Начало</a></li>
+              <li><a href="products.html">Продукти</a></li>
+              <li><a href="contacts.html">Контакти</a></li>
+              <li><a href="aboutme.html">За Мен</a></li>
+              <li><a href="login.html">Вход</a></li>
+            </ul>
+          </div>
+          <div class="services">
+            <h3>Какво предлагаме?</h3>
+            <ul>
+              <li><a href="#">Рутери</a></li>
+              <li><a href="#">Защитни стени</a></li>
+              <li><a href="#">Поправка</a></li>
+              <li><a href="#">Поддръжка</a></li>
+            </ul>
+          </div>
+          <div class="newsletter">
+            <h3>Анонирайте се за нашия бюлетин</h3>
+            <input type="email" placeholder="Вашия имейл" />
+            <button>Абониране</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/login.js"></script>
+  </body>
+</html>
